@@ -1,16 +1,87 @@
+body {
+  font-family: Moderustic, sans-serif;
+  font-size: 14px;
+  background-color: #f3f4f6; }
+
 table {
   width: 80%;
-  margin: auto; }
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px #fff; }
   table th,
   table td {
-    text-align: left; }
-  table td img {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%; }
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #edecf1;
+    text-align: left;
+    padding: 12px; }
+  table th {
+    color: #7a8289;
+    background-color: #f9fafc; }
+  table td {
+    color: #141726; }
+    table td img {
+      height: 40px;
+      width: 40px;
+      border-radius: 100%; }
   table .user-name {
+    font-size: 16px;
+    font-weight: 500;
     display: flex;
     align-items: center;
     gap: 5px; }
+  table .user-role {
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    gap: 5px; }
+    table .user-role.administrator {
+      color: #1a56db;
+      background-color: #e2efff; }
+  table .status {
+    font-weight: 500; }
+    table .status .status-icon {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 5px; }
+      table .status .status-icon.active {
+        background-color: #07a16d; }
+      table .status .status-icon.inactive {
+        background-color: #f2534f; }
+  table .social-profile ion-icon {
+    font-size: 18px;
+    color: #6c737f !important;
+    margin-right: 2px; }
+  table .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px; }
+    table .rating .arrow-up {
+      color: #1fa779; }
+    table .rating .arrow-down {
+      color: #e44745; }
+
+input[id="select"] + label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #bcbcbc;
+  border-radius: 2px;
+  cursor: pointer; }
+
+input[id="select"]:checked + label:after {
+  position: relative;
+  top: -4px;
+  left: 2px;
+  content: "\2714";
+  font-size: 14px; }
+
+input[id="select"] {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
