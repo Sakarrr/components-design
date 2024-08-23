@@ -1,0 +1,16 @@
+table {
+  width: 80%;
+  margin: auto; }
+  table th,
+  table td {
+    text-align: left; }
+  table td img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%; }
+  table .user-name {
+    display: flex;
+    align-items: center;
+    gap: 5px; }
+
+/*# sourceMappingURL=style.css.map */
