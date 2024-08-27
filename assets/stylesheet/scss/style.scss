@@ -1,15 +1,27 @@
 body {
   font-family: Moderustic, sans-serif;
   font-size: 14px;
+  color: #6c737f;
   background-color: #f3f4f6;
   height: 100vh;
 }
 
+.table-component {
+  max-height: 400px;
+}
+
 table {
   width: 80%;
+  max-height: 200px;
   margin: 100px auto;
   background-color: #fff;
   box-shadow: 2px 2px 2px 2px #fff;
+  overflow: scroll;
+
+  tbody {
+    max-height: 400px;
+    overflow-y: auto;
+  }
 
   th,
   td {
