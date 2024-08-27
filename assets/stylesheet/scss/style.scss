@@ -123,6 +123,18 @@ table {
       color: #e44745;
     }
   }
+
+  .more-icon {
+    font-size: 16px;
+    transform: rotate(90deg);
+    padding: 3px 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f3f3f5;
+      border-radius: 5px;
+    }
+  }
 }
 
 input[id="select"] + label {
