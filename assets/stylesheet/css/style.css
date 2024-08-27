@@ -51,6 +51,12 @@ table {
     table .user-role.administrator {
       color: #1a56db;
       background-color: #e2efff; }
+    table .user-role.viewer {
+      color: #565e6b;
+      background-color: #f3f4f6; }
+    table .user-role.moderator {
+      color: #7d4ec6;
+      background-color: #e9ebf8; }
   table .status {
     font-weight: 500; }
     table .status .status-icon {

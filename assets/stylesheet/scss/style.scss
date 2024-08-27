@@ -68,6 +68,16 @@ table {
       color: #1a56db;
       background-color: #e2efff;
     }
+
+    &.viewer {
+      color: #565e6b;
+      background-color: #f3f4f6;
+    }
+
+    &.moderator {
+      color: #7d4ec6;
+      background-color: #e9ebf8;
+    }
   }
 
   .status {
