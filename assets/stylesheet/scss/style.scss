@@ -212,3 +212,37 @@ input {
     }
   }
 }
+
+.radio-button-style-2 {
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  input {
+    opacity: 0;
+    &:hover ~ .checkmark {
+      background-color: #2196f3;
+      cursor: pointer;
+    }
+
+    &:checked ~ .checkmark {
+      background-color: #2196f3;
+    }
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+}
