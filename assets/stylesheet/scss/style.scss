@@ -38,8 +38,6 @@ table {
   }
 
   td {
-    color: #141726;
-
     img {
       height: 40px;
       width: 40px;
@@ -82,6 +80,7 @@ table {
 
   .status {
     font-weight: 500;
+    color: #141726;
 
     .status-icon {
       height: 10px;
@@ -103,7 +102,7 @@ table {
   .social-profile {
     ion-icon {
       font-size: 18px;
-      color: #6c737f !important;
+      // color: #6c737f !important;
       margin-right: 2px;
     }
   }
@@ -112,6 +111,7 @@ table {
     display: flex;
     align-items: center;
     gap: 5px;
+    color: #141726;
 
     .arrow-up {
       color: #1fa779;
@@ -131,6 +131,7 @@ input[id="select"] + label {
   border-radius: 2px;
   cursor: pointer;
 }
+
 input[id="select"]:checked + label:after {
   position: relative;
   top: -4px;
@@ -138,6 +139,62 @@ input[id="select"]:checked + label:after {
   content: "\2714";
   font-size: 14px;
 }
+
 input[id="select"] {
   display: none;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 28px;
+
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+
+    &:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+  }
+}
+
+input {
+  &:checked + .slider {
+    background-color: #2196f3;
+  }
+
+  &:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+
+    &::before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+  }
 }
