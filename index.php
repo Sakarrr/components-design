@@ -11,6 +11,7 @@
 
 <body>
   <a href="./components/table.php">Table Component</a>
+  <a href="./components/radio-button.php">Radio Button Component</a>
 
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>

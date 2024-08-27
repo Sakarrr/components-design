@@ -6,7 +6,7 @@ body {
   height: 100vh; }
 
 .table-component {
-  margin: 100px auto;
+  margin: 100px auto 0;
   max-width: 1140px;
   height: 690px;
   overflow-y: scroll; }
