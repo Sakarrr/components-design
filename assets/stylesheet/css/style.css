@@ -17,12 +17,14 @@ table {
   box-shadow: 2px 2px 2px 2px #fff; }
   table th,
   table td {
+    width: 200px;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #edecf1;
     text-align: left;
     padding: 12px; }
   table th {
+    font-size: 12px;
     position: sticky;
     top: 0;
     color: #7a8289;

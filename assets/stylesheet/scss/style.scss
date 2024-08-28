@@ -20,6 +20,7 @@ table {
 
   th,
   td {
+    width: 200px;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #edecf1;
@@ -28,6 +29,7 @@ table {
   }
 
   th {
+    font-size: 12px;
     position: sticky;
     top: 0;
     color: #7a8289;
