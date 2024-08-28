@@ -247,7 +247,7 @@
         echo '</span></td>';
         echo '<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>';
         echo '<td><span class="rating"><ion-icon class="arrow-' . $user["rating_direction"] . '" name="arrow-round-' . $user["rating_direction"] . '"></ion-icon>' . $user["rating"] . '</span></td>';
-        echo '<td>' . $user["date"] . '</td>';
+        echo '<td><span class="last-login">' . $user["date"] . '</span></td>';
         echo '<td><ion-icon name="more" class="more-icon"></ion-icon></td>';
         echo '</tr>';
       } ?>

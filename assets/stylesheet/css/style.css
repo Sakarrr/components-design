@@ -31,7 +31,9 @@ table {
   table td img {
     height: 40px;
     width: 40px;
-    border-radius: 100%; }
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: bottom; }
   table .user-name {
     font-size: 16px;
     font-weight: 500;
@@ -57,6 +59,8 @@ table {
       color: #7d4ec6;
       background-color: #e9ebf8; }
   table .status {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     color: #141726; }
     table .status .status-icon {
@@ -69,11 +73,13 @@ table {
         background-color: #07a16d; }
       table .status .status-icon.inactive {
         background-color: #f2534f; }
-  table .social-profile ion-icon {
-    font-size: 18px;
-    margin-right: 2px; }
-    table .social-profile ion-icon:hover {
-      cursor: pointer; }
+  table .social-profile {
+    display: flex; }
+    table .social-profile ion-icon {
+      font-size: 18px;
+      margin-right: 2px; }
+      table .social-profile ion-icon:hover {
+        cursor: pointer; }
   table .rating {
     display: flex;
     align-items: center;
@@ -83,6 +89,9 @@ table {
       color: #1fa779; }
     table .rating .arrow-down {
       color: #e44745; }
+  table .last-login {
+    display: flex;
+    width: max-content; }
   table .more-icon {
     font-size: 16px;
     transform: rotate(90deg);
