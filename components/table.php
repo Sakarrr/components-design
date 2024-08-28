@@ -23,6 +23,7 @@
   <?php
   $users = [
     [
+      "id" => "1",
       "name" => "Jese Leos",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "clipboard",
@@ -36,6 +37,7 @@
       "date" => "20 Nov 2022"
     ],
     [
+      "id" => "2",
       "name" => "Bonnie Green",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -49,6 +51,7 @@
       "date" => "23 Nov 2022"
     ],
     [
+      "id" => "3",
       "name" => "Leslie Livingston",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
@@ -62,6 +65,7 @@
       "date" => "19 Nov 2022"
     ],
     [
+      "id" => "4",
       "name" => "Micheal Gough",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
@@ -75,6 +79,7 @@
       "date" => "27 Nov 2022"
     ],
     [
+      "id" => "5",
       "name" => "Joseph McFall",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -88,6 +93,7 @@
       "date" => "20 Nov 2022"
     ],
     [
+      "id" => "6",
       "name" => "Robert Brown",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -101,6 +107,7 @@
       "date" => "20 Nov 2022"
     ],
     [
+      "id" => "7",
       "name" => "Karen Nelson",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -114,6 +121,7 @@
       "date" => "18 Nov 2022"
     ],
     [
+      "id" => "8",
       "name" => "Helene Engels",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
@@ -127,6 +135,7 @@
       "date" => "27 Nov 2022"
     ],
     [
+      "id" => "9",
       "name" => "Lana Byrd",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -140,6 +149,7 @@
       "date" => "20 Nov 2022"
     ],
     [
+      "id" => "10",
       "name" => "Neil Sims",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
@@ -153,6 +163,7 @@
       "date" => "20 Nov 2022"
     ],
     [
+      "id" => "11",
       "name" => "Bonnie Green",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -166,6 +177,7 @@
       "date" => "23 Nov 2022"
     ],
     [
+      "id" => "12",
       "name" => "Bonnie Green",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -179,6 +191,7 @@
       "date" => "23 Nov 2022"
     ],
     [
+      "id" => "13",
       "name" => "Bonnie Green",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -192,6 +205,7 @@
       "date" => "23 Nov 2022"
     ],
     [
+      "id" => "14",
       "name" => "Bonnie Green",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -205,6 +219,7 @@
       "date" => "23 Nov 2022"
     ],
     [
+      "id" => "15",
       "name" => "Bonnie Green",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
@@ -222,7 +237,7 @@
     <table cellspacing="0">
       <tr>
         <th>
-          <input type="checkbox" id="select" /> <label for="select"></label>
+          <input type="checkbox" id="0" /> <label for="0"></label>
         </th>
         <th>USER</th>
         <th>USER ROLE</th>
@@ -236,7 +251,7 @@
       <?php
       foreach ($users as $user) {
         echo '<tr>';
-        echo '<td><input type="checkbox" id="select" /> <label for="select"></label></td>';
+        echo '<td><input type="checkbox" id="' . $user["id"] . '" /> <label for="' . $user["id"] . '"></label></td>';
         echo '<td class="user-name"><img src="' . $user["image"] . '" /> ' . $user["name"] . '</td>';
         echo '<td><span class="user-role ' . $user["role_class"] . '"><ion-icon name="' . $user["role_icon"] . '"></ion-icon>' . $user["role"] . '</span></td>';
         echo '<td><span class="status"><span class="status-icon ' . $user["status_class"] . '"></span>' . $user["status"] . '</span></td>';
@@ -245,7 +260,7 @@
           echo '<ion-icon name="logo-' . $profile . '"></ion-icon>';
         }
         echo '</span></td>';
-        echo '<td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>';
+        echo '<td><label class="switch"><input type="checkbox" id="' . $user["id"] . '"><span class="slider round"></span></label></td>';
         echo '<td><span class="rating"><ion-icon class="arrow-' . $user["rating_direction"] . '" name="arrow-round-' . $user["rating_direction"] . '"></ion-icon>' . $user["rating"] . '</span></td>';
         echo '<td><span class="last-login">' . $user["date"] . '</span></td>';
         echo '<td><ion-icon name="more" class="more-icon"></ion-icon></td>';
