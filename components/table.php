@@ -23,7 +23,7 @@
   <?php
   $users = [
     [
-      "name" => "Jesse Leos",
+      "name" => "Jese Leos",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "clipboard",
       "role" => "Administrator",
