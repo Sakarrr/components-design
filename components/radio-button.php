@@ -31,19 +31,19 @@
     </div>
 
     <div class="radio-button-style-2"> <label class="container">One
-            <input type="radio" checked="checked" name="radio">
+            <input type="radio" checked="checked" name="radio-btn">
             <span class="checkmark"></span>
         </label>
         <label class="container">Two
-            <input type="radio" name="radio">
+            <input type="radio" name="radio-btn">
             <span class="checkmark"></span>
         </label>
         <label class="container">Three
-            <input type="radio" name="radio">
+            <input type="radio" name="radio-btn">
             <span class="checkmark"></span>
         </label>
         <label class="container">Four
-            <input type="radio" name="radio">
+            <input type="radio" name="radio-btn">
             <span class="checkmark"></span>
         </label>
     </div>
