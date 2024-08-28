@@ -49,7 +49,7 @@
       "date" => "23 Nov 2022"
     ],
     [
-      "name" => "Lesilie Livingston",
+      "name" => "Leslie Livingston",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
       "role" => "Moderator",
@@ -114,7 +114,7 @@
       "date" => "18 Nov 2022"
     ],
     [
-      "name" => "Helen Engels",
+      "name" => "Helene Engels",
       "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
       "role" => "Moderator",
