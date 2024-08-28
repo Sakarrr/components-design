@@ -11,9 +11,7 @@ table {
   box-shadow: 2px 2px 2px 2px #fff; }
   table th,
   table td {
-    width: 200px;
-    border-left: none;
-    border-right: none;
+    white-space: nowrap;
     border-bottom: 1px solid #edecf1;
     text-align: left;
     padding: 12px; }
@@ -55,7 +53,6 @@ table {
       color: #7d4ec6;
       background-color: #e9ebf8; }
   table .status {
-    display: flex;
     align-items: center;
     font-weight: 500;
     color: #141726; }
@@ -69,13 +66,11 @@ table {
         background-color: #07a16d; }
       table .status .status-icon.inactive {
         background-color: #f2534f; }
-  table .social-profile {
-    display: flex; }
-    table .social-profile ion-icon {
-      font-size: 18px;
-      margin-right: 2px; }
-      table .social-profile ion-icon:hover {
-        cursor: pointer; }
+  table .social-profile ion-icon {
+    font-size: 18px;
+    margin-right: 2px; }
+    table .social-profile ion-icon:hover {
+      cursor: pointer; }
   table .rating {
     display: flex;
     align-items: center;
@@ -85,9 +80,6 @@ table {
       color: #1fa779; }
     table .rating .arrow-down {
       color: #e44745; }
-  table .last-login {
-    display: flex;
-    width: max-content; }
   table .more-icon {
     font-size: 16px;
     transform: rotate(90deg);
