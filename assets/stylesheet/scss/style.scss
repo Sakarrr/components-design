@@ -37,23 +37,21 @@ table {
     z-index: 1;
   }
 
-  td {
-    img {
-      height: 40px;
-      width: 40px;
-      border-radius: 100%;
-      object-fit: cover;
-      object-position: bottom;
-    }
-  }
-
   .user-name {
     font-size: 16px;
     font-weight: 500;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     color: #000;
+
+    img {
+      height: 36px;
+      width: 36px;
+      border-radius: 100%;
+      object-fit: cover;
+      object-position: bottom;
+    }
   }
 
   .user-role {

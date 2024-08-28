@@ -30,19 +30,19 @@ table {
     color: #7a8289;
     background-color: #f9fafc;
     z-index: 1; }
-  table td img {
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    object-fit: cover;
-    object-position: bottom; }
   table .user-name {
     font-size: 16px;
     font-weight: 500;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     color: #000; }
+    table .user-name img {
+      height: 36px;
+      width: 36px;
+      border-radius: 100%;
+      object-fit: cover;
+      object-position: bottom; }
   table .user-role {
     font-weight: 500;
     display: inline-flex;
