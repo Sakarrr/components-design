@@ -37,7 +37,7 @@
     ],
     [
       "name" => "Bonnie Green",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "viewer",
@@ -50,7 +50,7 @@
     ],
     [
       "name" => "Lesilie Livingston",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
       "role" => "Moderator",
       "role_class" => "moderator",
@@ -63,7 +63,7 @@
     ],
     [
       "name" => "Micheal Gough",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
       "role" => "Moderator",
       "role_class" => "moderator",
@@ -76,7 +76,7 @@
     ],
     [
       "name" => "Joseph McFall",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "viewer",
@@ -89,7 +89,7 @@
     ],
     [
       "name" => "Robert Brown",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "viewer",
@@ -102,7 +102,7 @@
     ],
     [
       "name" => "Karen Nelson",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "viewer",
@@ -115,7 +115,7 @@
     ],
     [
       "name" => "Helen Engels",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
       "role" => "Moderator",
       "role_class" => "moderator",
@@ -128,7 +128,7 @@
     ],
     [
       "name" => "Lana Byrd",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "viewer",
@@ -141,7 +141,7 @@
     ],
     [
       "name" => "Neil Sims",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "person-add",
       "role" => "Moderator",
       "role_class" => "moderator",
@@ -154,7 +154,7 @@
     ],
     [
       "name" => "Bonnie Green",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "",
@@ -167,7 +167,7 @@
     ],
     [
       "name" => "Bonnie Green",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "",
@@ -180,7 +180,7 @@
     ],
     [
       "name" => "Bonnie Green",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "",
@@ -193,7 +193,7 @@
     ],
     [
       "name" => "Bonnie Green",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "",
@@ -206,7 +206,7 @@
     ],
     [
       "name" => "Bonnie Green",
-      "image" => "../assets/images/bonnie.jpg",
+      "image" => "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=600",
       "role_icon" => "eye",
       "role" => "Viewer",
       "role_class" => "",
