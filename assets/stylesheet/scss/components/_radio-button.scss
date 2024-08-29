@@ -13,7 +13,7 @@
     display: none;
 
     &:hover ~ .checkmark {
-      background-color: #ccc;
+      background-color: #cccccc41;
       cursor: pointer;
 
       &::before {
@@ -74,7 +74,7 @@
   input {
     display: none;
     &:hover ~ .checkmark {
-      background-color: #2196f3;
+      background-color: #2195f367;
       cursor: pointer;
     }
 

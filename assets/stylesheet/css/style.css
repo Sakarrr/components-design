@@ -1031,7 +1031,7 @@ input[id="15"]:focus + .slider {
 .radio-button-style-1 input {
   display: none; }
   .radio-button-style-1 input:hover ~ .checkmark {
-    background-color: #ccc;
+    background-color: #cccccc41;
     cursor: pointer; }
     .radio-button-style-1 input:hover ~ .checkmark::before {
       position: absolute;
@@ -1076,7 +1076,7 @@ input[id="15"]:focus + .slider {
   .radio-button-style-2 input {
     display: none; }
     .radio-button-style-2 input:hover ~ .checkmark {
-      background-color: #2196f3;
+      background-color: #2195f367;
       cursor: pointer; }
     .radio-button-style-2 input:checked ~ .checkmark {
       background-color: #2196f3; }
