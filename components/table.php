@@ -252,7 +252,7 @@
     <table cellspacing="0">
       <tr>
         <th>
-          <input type="checkbox" id="0" /> <label for="0"></label>
+          <input class="checkbox" type="checkbox" id="0" /> <label for="0"></label>
         </th>
         <th>USER</th>
         <th>USER ROLE</th>
@@ -266,7 +266,7 @@
       <?php
       foreach ($users as $user) {
         echo '<tr>';
-        echo '<td><input type="checkbox" id="' . $user["id"] . '" /> <label for="' . $user["id"] . '"></label></td>';
+        echo '<td><input class="checkbox" type="checkbox" id="' . $user["id"] . '" /> <label for="' . $user["id"] . '"></label></td>';
         echo '<td class="user-name"><img src="' . $user["image"] . '" /> ' . $user["name"] . '</td>';
         echo '<td><span class="user-role ' . $user["role_class"] . '"><ion-icon name="' . $user["role_icon"] . '"></ion-icon>' . $user["role"] . '</span></td>';
         echo '<td><span class="status"><span class="status-icon ' . $user["status_class"] . '"></span>' . $user["status"] . '</span></td>';
