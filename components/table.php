@@ -32,6 +32,7 @@
       "status" => "Active",
       "status_class" => "active",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "01",
       "rating" => 4.7,
       "rating_direction" => "up",
       "date" => "20 Nov 2022"
@@ -46,6 +47,7 @@
       "status" => "Active",
       "status_class" => "active",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "02",
       "rating" => 3.9,
       "rating_direction" => "down",
       "date" => "23 Nov 2022"
@@ -60,6 +62,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble"],
+      "toggle_id" => "03",
       "rating" => 4.8,
       "rating_direction" => "up",
       "date" => "19 Nov 2022"
@@ -74,6 +77,7 @@
       "status" => "Active",
       "status_class" => "active",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "04",
       "rating" => 5,
       "rating_direction" => "up",
       "date" => "27 Nov 2022"
@@ -88,6 +92,7 @@
       "status" => "Active",
       "status_class" => "active",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "05",
       "rating" => 4.2,
       "rating_direction" => "down",
       "date" => "20 Nov 2022"
@@ -102,6 +107,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter"],
+      "toggle_id" => "06",
       "rating" => 4.5,
       "rating_direction" => "up",
       "date" => "20 Nov 2022"
@@ -116,6 +122,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "07",
       "rating" => 4.1,
       "rating_direction" => "down",
       "date" => "18 Nov 2022"
@@ -130,6 +137,7 @@
       "status" => "Active",
       "status_class" => "active",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "08",
       "rating" => 3.8,
       "rating_direction" => "down",
       "date" => "27 Nov 2022"
@@ -144,6 +152,7 @@
       "status" => "Active",
       "status_class" => "active",
       "social_profiles" => ["facebook", "github"],
+      "toggle_id" => "09",
       "rating" => 4.8,
       "rating_direction" => "up",
       "date" => "20 Nov 2022"
@@ -158,6 +167,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "010",
       "rating" => 5.0,
       "rating_direction" => "up",
       "date" => "20 Nov 2022"
@@ -172,6 +182,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "011",
       "rating" => 3.9,
       "rating_direction" => "down",
       "date" => "23 Nov 2022"
@@ -186,6 +197,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "012",
       "rating" => 3.9,
       "rating_direction" => "down",
       "date" => "23 Nov 2022"
@@ -200,6 +212,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "013",
       "rating" => 3.9,
       "rating_direction" => "down",
       "date" => "23 Nov 2022"
@@ -214,6 +227,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "014",
       "rating" => 3.9,
       "rating_direction" => "down",
       "date" => "23 Nov 2022"
@@ -228,6 +242,7 @@
       "status" => "Inactive",
       "status_class" => "inactive",
       "social_profiles" => ["facebook", "github", "dribbble", "twitter", "google"],
+      "toggle_id" => "015",
       "rating" => 3.9,
       "rating_direction" => "down",
       "date" => "23 Nov 2022"
@@ -260,7 +275,7 @@
           echo '<ion-icon name="logo-' . $profile . '"></ion-icon>';
         }
         echo '</span></td>';
-        echo '<td><label class="switch"><input type="checkbox" id="' . $user["id"] . '"><span class="slider round"></span></label></td>';
+        echo '<td><input class="toggle" type="checkbox" id="' . $user["toggle_id"] . '"><label class="switch" for="' . $user["toggle_id"] . '"></label></td>';
         echo '<td><span class="rating"><ion-icon class="arrow-' . $user["rating_direction"] . '" name="arrow-round-' . $user["rating_direction"] . '"></ion-icon>' . $user["rating"] . '</span></td>';
         echo '<td><span class="last-login">' . $user["date"] . '</span></td>';
         echo '<td><ion-icon name="more" class="more-icon"></ion-icon></td>';
