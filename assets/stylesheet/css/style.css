@@ -91,21 +91,19 @@ table {
 
 .checkbox {
   display: none; }
-
-.checkbox + label {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border: 2px solid #bcbcbc;
-  border-radius: 2px;
-  cursor: pointer; }
-
-.checkbox:checked + label:after {
-  position: relative;
-  top: -4px;
-  left: 2px;
-  content: "\2714";
-  font-size: 14px; }
+  .checkbox:checked ~ label::after {
+    position: relative;
+    top: -4px;
+    left: 2px;
+    content: "\2714";
+    font-size: 14px; }
+  .checkbox ~ label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #bcbcbc;
+    border-radius: 2px;
+    cursor: pointer; }
 
 .toggle {
   display: none; }
@@ -113,26 +111,25 @@ table {
     background: #2784f1; }
     .toggle:checked ~ .switch::before {
       transform: translateX(90%); }
-
-.switch {
-  display: block;
-  width: 60px;
-  height: 30px;
-  background: #ccc;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
-  .switch::before {
-    content: "";
+  .toggle ~ .switch {
     display: block;
-    background: #fff;
-    height: 28px;
-    width: 28px;
+    width: 60px;
+    height: 30px;
+    background: #ccc;
     border: 1px solid #ccc;
-    border-radius: 50%;
+    border-radius: 20px;
     transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
-  .switch:hover {
-    cursor: pointer; }
+    .toggle ~ .switch::before {
+      content: "";
+      display: block;
+      background: #fff;
+      height: 28px;
+      width: 28px;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    .toggle ~ .switch:hover {
+      cursor: pointer; }
 
 /* Custom radion button design. */
 .radio-button-style-1 .container {
